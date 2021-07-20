@@ -10,7 +10,8 @@ describe('#largestSubarraySum', function() {
   });
 
   it('returns the largest subarray sum when the array has some negative numbers at the start', function() {
-		let array = [-3, 1, 100, 4, 15, 9, 30]
+		let array = 
+		[-3, 1, 100, 4, 15, 9, 30]
 		expect(largestSubarraySum(array)).toEqual(159)
   });
 
